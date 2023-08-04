@@ -73,7 +73,7 @@ content:
 
       - layout: left
         border: weak
-        title: Self-initiated Statistical Arbitrage Platform 
+        title: Statistical Arbitrage Platform 
         link_text: Backend Developer
         quote: >
           Analysis of Forex correlation patterns to identify trading opportunities
@@ -84,11 +84,11 @@ content:
       - layout: left
         border: weak
         title: Project Green Warriors
-        link_text: Darul Ihsan Orphanage - Team Leader
+        link_text: Team Leader
         quote: >
           Electrical and water conservation project
         description: |
-          Analysis of orphanage electrical data to lower expenses attributed to wastage. <br>
+          Analysis of Darul Ihsan Orphanage's electrical data to lower expenses attributed to wastage. <br>
           Developed a step-wise proposal to conserve energy, eg. switching to fluorescent bulbs which potentially saved 14% of total bills. <br>
           Designed and led a 1-day workshop to encourage recycling and energy-saving practices. <br>
 
