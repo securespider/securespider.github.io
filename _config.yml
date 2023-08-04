@@ -33,7 +33,7 @@ linkedin_username: vincent-pang-391222234
 # about_title: About Me (Use this to override about section title)
 about_profile_image: images/profile-pic.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hi! I am an aspiring software engineer with a passion for building products that make a difference. I am currently a penultimate year CS undergrad at NUS.<br>
+  Hi! I am an aspiring software engineer with a passion for building products that make a difference. I am currently a penultimate year CS undergrad at NUS.<br><br>
   I am currently looking for internship opportunities in the summer of 2024. Feel free to reach out to me if you are interested in working together!<br>
 
 
@@ -50,22 +50,48 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        border: weak  # Value of `weak` will display a weak border below this item. # Any 
-                      # other value (or no value) means no border will be displayed
-        title: Project name
-        link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        link_text: Link Text
-        additional_links:
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
-            icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
-            icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        border: weak
+        title: Tutoradar
+        link: https://github.com/tutoradar/frontend
+        link_text: Frontend Lead
         quote: >
-          Short overview of the project (optional)
-        description: | # this will include new lines to allow paragraphs
-          Description about the work on/with the project
+          Tutor-Student matching service
+        description: |
+          Implemented an efficient user interface by leveraging Next.js features for server-side rendering and performance optimization. <br>
+          Operated cloud technologies to manage databases and secure authentication.
+
+      - layout: left
+        border: weak
+        title: Tasked
+        link: https://github.com/securespider/Tasked
+        link_text: Fullstack Mobile Developer
+        quote: >
+          Android Calendar application
+        description: |
+          Developed a mobile application to manage tasks and events using Java and Android Studio. <br>
+          Implement secure authentication and data storage using Firebase. <br>
+
+      - layout: left
+        border: weak
+        title: Self-initiated Statistical Arbitrage Platform 
+        link_text: Backend Developer
+        quote: >
+          Analysis of Forex correlation patterns to identify trading opportunities
+        description: |
+          Adopted statistical tools using Python libraries numpy, pandas, and matplotlib in analyzing Forex correlation patterns. <br>
+          Implemented automated trading in Forex to open and close trades based on analysis metrics using MetaTrader5 API.
+
+      - layout: left
+        border: weak
+        title: Project Green Warriors
+        link_text: Darul Ihsan Orphanage - Team Leader
+        quote: >
+          Electrical and water conservation project
+        description: |
+          Analysis of orphanage electrical data to lower expenses attributed to wastage. <br>
+          Developed a step-wise proposal to conserve energy, eg. switching to fluorescent bulbs which potentially saved 14% of total bills. <br>
+          Designed and led a 1-day workshop to encourage recycling and energy-saving practices. <br>
+
   - title: Experience
     layout: list
     content:
@@ -123,7 +149,8 @@ content:
         title: Mobile Development
         caption: 60% 
         description: | # this will include new lines to allow paragraphs
-          Experience with Android development using Java and Kotlin
+          Developed Android apps using Java and Kotlin<br>
+          Experience in React Native
       - layout: left
         title: Databases
         caption: 60% 
@@ -133,12 +160,13 @@ content:
         title: Data Engineering and AI/ML
         caption: 50%
         description: | # this will include new lines to allow paragraphs
-          Proficient with data manipulation and analysis using numpy, pandas and scikit-learn
+          Proficient with data manipulation and analysis using numpy, pandas and scikit-learn <br>
           Data visualization with matplotlib and matlab
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
         I stay in Raffles Hall and participate in all kinds of sports and activities.<br>
+        I love playing softball and represent my hall in the inter-hall games.<br>
         ![softball](/images/softball.jpg "Softball")
   
 
