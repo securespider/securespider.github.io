@@ -116,7 +116,7 @@ content:
         description: | # this will include new lines to allow paragraphs
           Conducted vulnerability assessments and penetration tests on MINDEF/SAF networks and systems.<br>
           Managed and maintained the security of MINDEF/SAF networks and systems.<br>
-          Led a team of 4 in 24hr network monitoring missions.<br>
+          Led a team of 7 in 24hr network monitoring missions.<br>
 
 
   - title: Education
@@ -146,6 +146,13 @@ content:
         description: | # this will include new lines to allow paragraphs
           Fullstack experience dealing with Next.js, React, JS/TS and Node.js
       - layout: left
+        title: Data Engineering and AI/ML
+        caption: 70%
+        description: | # this will include new lines to allow paragraphs
+          Proficient with data manipulation and analysis using numpy, pandas and scikit-learn <br>
+          Data visualization with matplotlib and matlab<br>
+          Experience in building neural networks using tensorflow
+      - layout: left
         title: Mobile Development
         caption: 60% 
         description: | # this will include new lines to allow paragraphs
@@ -156,18 +163,14 @@ content:
         caption: 60% 
         description: | # this will include new lines to allow paragraphs
           Expertise in designing and manipulating SQL (Postgres) and NoSQL databases (Firebase)
-      - layout: left
-        title: Data Engineering and AI/ML
-        caption: 50%
-        description: | # this will include new lines to allow paragraphs
-          Proficient with data manipulation and analysis using numpy, pandas and scikit-learn <br>
-          Data visualization with matplotlib and matlab
+      
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
         I stay in Raffles Hall and participate in all kinds of sports and activities.<br>
         I love playing softball and represent my hall in the inter-hall games.<br>
-        ![softball](/images/softball.jpg "Softball")
+        ![softball](/images/softball.JPG "Softball")<br>
+        Team sports has taught me the importance of teamwork and communication.<br>
   
 
 # Footer
