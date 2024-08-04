@@ -7,7 +7,7 @@ version: 2
 
 # Personal info
 name: Vincent Pang
-title: Penultimate Year CS Undergrad @ NUS
+title: Final Year CS Undergrad @ NUS
 email: vincent_pang@u.nus.edu
 # website_title: Web (Website title override)
 
@@ -73,7 +73,7 @@ content:
 
       - layout: left
         border: weak
-        title: Statistical Arbitrage Platform 
+        title: Statistical Arbitrage Platform
         link_text: Backend Developer
         quote: >
           Analysis of Forex correlation patterns to identify trading opportunities
@@ -96,12 +96,22 @@ content:
     layout: list
     content:
       - layout: right
+        title: TeraSi AB
+        sub_title: Software and Business Intern
+        caption: Jan 2024 - Present
+        link: terasi.io
+        quote: >
+          Software Engineering and Business Administration
+        description: | # this will include new lines to allow paragraphs
+          Developed software pipeline to facilitate engineering processs and reduce manual work.<br>
+          Conducted market research and analysis to identify potential clients and competitors.<br>
+      - layout: right
         title: Gradiant International
         sub_title: Digital Intern
-        caption: May 2023 - Present
+        caption: May 2023 - Aug 2023
         link: gradiant.com
         quote: >
-          Fullstack Web development 
+          Fullstack Web development
         description: | # this will include new lines to allow paragraphs
           Designed and developed a web application for engineers to manage and monitor their projects.<br>
           Worked with React, FastAPI and Postgres on Docker containers.<br>
